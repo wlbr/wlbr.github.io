@@ -31,6 +31,8 @@ linkedin_username: mwolber
 stackoverflow_username: wlbr
 google_analytics: UA-28222529-1
 show_excerpts: true
+#paginate: 5
+#paginate_path: "/blog/:num/"
 
 # jekyll_analytics:
 #     GoogleAnalytics:          # Add, if you want to track with Google Analytics
@@ -44,6 +46,7 @@ plugins:
   - jekyll-feed
   - jekyll-analytics
   - jekyll-sitemap
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.

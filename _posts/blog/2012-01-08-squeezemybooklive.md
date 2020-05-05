@@ -10,7 +10,7 @@ date: 2012-01-08
 
 I live in a place with a very bad radio reception. Therefore I
 recently bought a
-[Logitech Squeezebox Radio](http://www.logitech.com/en-us/speakers-audio/wireless-music-systems/squeezebox-radio-white),
+[Logitech Squeezebox Radio](https://de.wikipedia.org/wiki/Squeezebox#Squeezebox_Radio_(September_2009)),
 to receive some radio stations through the internet connection. But without the
 PC, with a small device inside the kitchen. Btw. the Squeezebox Radio works
 flawlessly, good sound, easy to use.

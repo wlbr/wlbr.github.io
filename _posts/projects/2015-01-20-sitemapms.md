@@ -6,14 +6,16 @@ date: 2015-01-20
 description: "Hihoho"
 ---
 
-I did a rework of my [archery club's](https://bsc-karlsruhe.de) homepage and decided to use a content management system called [CMS Made Simple](https://www.cmsmadesimple.org/) or, shorter, CmsMS. It did not generate a goog sitemap automatically. Yet another plugin just did not seem to work.
+Sitemapms is a google sitemap (sitemap.xml) generator for websites powered by CMSMS (CMS Made Simple) - [www.cmsmadesimple.org](https://www.cmsmadesimple.org). It reads the pages and related information straight out of the CMSMS database. Thus it is really fast, its access is not tracked by analytics tools as Piwik etc. and it is perfectly fitting to be run as a cron job.
 
-Well, so I wrote a simple sitemap generator. It connects to the database of the content management system and creates a sitemap.xml file. The hiararchy of the pages in the menu drives the priority in the sitemap. It can be run frequently as a cronjob.
+The page priorities in the sitemap.xml are calculated by the page/menu hierarchy inside of the CMS.
 
-It reads a file .sitemapms.ini that resides in the home directory of the user running the tool and takes a number of command line switches.
+Everything can be controlled using command line switches. The commandline options are overruling the configfile settings. So first the configfile gets loaded and afterwards the command line arguments are set.
 
-Configuration:
-```
+
+### Example configuration file:
+
+```ini
 ; SiteMapMS Config file
 [Database]
   Database = cms_db

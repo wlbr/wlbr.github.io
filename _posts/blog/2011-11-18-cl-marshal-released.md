@@ -2,8 +2,6 @@
 layout: post
 category: blog
 title: "CL-Marshal released"
-description: "Description CL-Marshal released"
-tags: lisp "common lisp" development github
 date: 2011-11-18
 ---
 

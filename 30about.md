@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "About"
+title: About
+heading: About
 permalink: /about
 date: 2020-04-11
 #author: "Michael Wolber"
 ---
 
-# About
 
 In the early eighties I bought a [Texas Instruments TI 99/4a](https://en.wikipedia.org/wiki/Texas_Instruments_TI-99/4A) - unfortunately it was broken. And even more horrible: as TI stopped the production of that wonderful machine it was not possible to get a working replacement. I literally spent all my pennys to buy a [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64). And so it came that I lost some years to computer games :smirk:
 But finally I ended up being interested in programming ...

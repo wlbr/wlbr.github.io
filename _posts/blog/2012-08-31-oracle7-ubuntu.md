@@ -21,7 +21,7 @@ that you _have_ the requirement to use the "official" JDK.
 Maybe simply because you are using it for years now and do not
 want to change a winning team.
 
-## So how do we get an "official JDK" on a decent Ubuntu?
+*So how do we get an "official JDK" on a decent Ubuntu?*
 
 Simple. Add a new ppa repository. This one will offer the
 Oracle Installer and if you install this package, it will pull

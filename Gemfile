@@ -21,6 +21,7 @@ group :jekyll_plugins do
   gem "hawkins"   # Livereload. Start jekyll using 'bundle exec jekyll liveserve'
   gem "jekyll-analytics"
   gem "jekyll-sitemap"
+  gem "jekyll-paginate"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

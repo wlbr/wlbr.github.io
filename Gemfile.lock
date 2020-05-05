@@ -253,6 +253,7 @@ DEPENDENCIES
   hawkins
   jekyll-analytics
   jekyll-feed (~> 0.12)
+  jekyll-paginate
   jekyll-sitemap
   jemoji
   minima (~> 2.5)

@@ -2,8 +2,6 @@
 layout: post
 category: blog
 title: "RaspberryPI as Squeezebox player"
-#description: ""
-tags: pi development
 date: 2012-08-20
 ---
 
