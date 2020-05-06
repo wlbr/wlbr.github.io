@@ -2,6 +2,7 @@
 layout: page
 heading: Impressum
 title: Imprint
+permalink: /imprint
 date: 2020-04-13
 ---
 
