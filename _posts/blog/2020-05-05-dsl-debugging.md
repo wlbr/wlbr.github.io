@@ -7,12 +7,12 @@ date: 2020-05-05
 
 Recently, somehow prepping for the Corona apocalypse, I ordered an upgrade of my DSL line. From 50/10 mbit/s (downstream/upstream) VDSL to 100/40 mbit/s VDSL Vectoring. It costs me additional 5€ per month so I thought it might be worth it. I did not really expect that just a few weeks later the both of us would find ourselves working completely remote from our home.
 
-My old line was pretty fast, almost exactly the 50/10 mbit/s I was paying for it, though it was not completely stable. I had weeks were everything was fine, but in others I had up to 40 reconnects per week. That was the case since my provider did a change in the backend infrastructure, but it never really bothered me, as I was using the network mostly during my free time.
+My old line was pretty fast, almost exactly the 50/10 mbit/s I was paying for, though it was not completely stable. I had weeks were everything was fine, but in others I had up to 40 reconnects per week. That was the case since my provider did a change in the backend infrastructure, but it never really bothered me, as I was using the network mostly during my free time.
 
 After the upgrade two things happened:
 
-1. initially I got 65/25 mbit/s. Later, after some days that dropped to 53/25 mbit/s. That was probably a reaction of the modem to the problems of point 2. I was probably downgrading the speed to reach higher stability.
-2. I encountered a _huge_ number on reconnects.
+1. initially I got 65/25 mbit/s. Later, after some days that dropped to 53/25 mbit/s. That was probably a reaction of the modem to the problems of point 2. It was probably downgrading the speed to reach higher stability.
+2. I encountered a _huge_ number of reconnects.
 
 Around the same time the permanent home office period started. So I could not tolerate this. I called the provider, in the end they sent out a technician. He measured a 80/30 mbit/s being available at the wall plug. We did the same test on the street, directly on the line - we measured 100/40 bit/s which is quite surprisingly at my street. But he did not find any problem. The loss could be explained by the quite long line from the street to our flat, but he had no clue what could cause the reconnects.
 
