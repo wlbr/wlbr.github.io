@@ -32,7 +32,7 @@ stackoverflow_username: wlbr
 google_analytics: UA-28222529-1
 show_excerpts: true
 #paginate: 5
-#paginate_path: "/blog/:num/"
+#paginate_path: /page:num/
 
 # jekyll_analytics:
 #     GoogleAnalytics:          # Add, if you want to track with Google Analytics

@@ -2,7 +2,7 @@
 layout: post
 category: blog
 title: "Yet another of my library FEIERTAGE"
-date: 2020-05-04
+date: 2020-05-06
 ---
 
 On the radion, just yesterday morning I heard that VE-Day will be a public holiday just in 2020 in Berlin only. So I had to add this to the library [_feiertage_](https://github.com/wlbr/feiertage).

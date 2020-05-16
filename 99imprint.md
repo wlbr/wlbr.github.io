@@ -7,7 +7,7 @@ date: 2020-04-13
 ---
 
 
-_Dies ist eine private Webseite ohne gewerblichen Bezug, ohne Gewinnabsicht. Für den Fall eine Kontaktwunsches nutzen Sie bitte Email._
+_Dies ist eine private Webseite ohne gewerblichen Bezug, ohne Gewinnabsicht. Im Fall eines Kontaktwunsches nutzen Sie bitte Email._
 
 ## Angaben gemäß § 5 TMG
 
