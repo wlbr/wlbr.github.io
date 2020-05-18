@@ -44,7 +44,7 @@ theme: minima
 #skin: solarized
 plugins:
   - jekyll-feed
-  - jekyll-analytics
+  #- jekyll-analytics
   - jekyll-sitemap
   - jekyll-paginate
 
