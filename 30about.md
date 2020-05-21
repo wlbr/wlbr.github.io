@@ -19,12 +19,13 @@ My personal journey across the space of languages. I got quite good in some of t
 
 * Commodore 64 Basic
 * C64 machine language (or assembler as it would be called later. Using SMON)
-* Pascal (Oxford Pascals on the C64, but much more Turbo Pascal on the PC)
+* Pascal (Oxford Pascal on the C64, but much more Turbo Pascal on the PC)
 * 80286 Assembler
 * C, C++ (Turbo C)
 * Bourne Shell
 * Common Lisp (Macintosh Common Lisp (Mac) and Allegro Common Lisp (PC))
 * Java
+* C#
 * Javascript (the old way)
 * Python
 * Google Go
