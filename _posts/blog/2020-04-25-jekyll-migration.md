@@ -2,7 +2,7 @@
 layout: post
 category: blog
 title: "Migrating an old blog to Jekyll"
-date: 2020-04-21
+date: 2020-04-25
 ---
 
 Finally I migrated my old blog posts to a new Jekyll based Gihub Pages project.

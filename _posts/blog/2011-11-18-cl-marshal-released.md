@@ -7,7 +7,8 @@ date: 2011-11-18
 
 Today I gave my really old `encode/decode` package to the public
 domain. As far as I remember, I developed the very first version of
-the library during my thesis at the university. I needed a simple
+the library during my thesis at the university. That was back in 1995 :smirk:
+I needed a simple
 way to communicate between processes, regardless if they were on the
 same or on a remote machine. I simply used objects that were sent via
 a kind of channels from one process to the other. Channels could be
