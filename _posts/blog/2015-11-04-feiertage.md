@@ -1,0 +1,23 @@
+---
+layout: post
+category: blog
+title: "New library (and cmd tool) FEIERTAGE"
+date: 2016-03-12
+---
+
+
+
+I released a new tool called [_templify_]({% post_url projects/2016-05-22-templify %}). It intended for use with Google Go. In Go it is a common pattern that your project compiles into a single binary without any external dependencies. Go offers a pretty comprehensive template page. One can define templates as simple strings (as with Printf) or as external template files, that are read at runtime from disk. Both ways have problems:
+
+  * defining a template as a standard string enforces you to deal with a lot of escaping. Additionally either you need to add additional line breaks and string concatenation within your program. Or you need to use multiline strings and your source will get _really_ ugly.
+  * reading your template from an external file works nicely, but this breaks the idea of a _single binary_. The template file will be needed at runtime, updates need to update both files ...
+
+So I wrote _templify_. Using it you can write your template as an external template file. Then you will need to run _templify_ on that file to create a Go source file, that generates a function, which returns the template as a string. So _templify_ kinda _invert_ the file into a Go internal string with correct escaping etc. 
+
+_templify_ works nicely with [`go generate`](https://blog.golang.org/generate), so that you can include it very comfortably in your Makefile and it will be run at any change of the template file.
+
+
+Take a look at its Github [repository](https://github.com/wlbr/templify) for more details and an [example](https://github.com/wlbr/templify/tree/master/example).
+
+
+For those interested: after I had a working initial version I used _templify_ to internalize its own generating template. That sounds a little confusing (and it was during development :smirk:), but it really nicely cleaned up the source. Using some command-line switches you may provide your own template to be used to create the code. 
