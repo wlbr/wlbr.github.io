@@ -31,6 +31,10 @@ linkedin_username: mwolber
 stackoverflow_username: wlbr
 google_analytics: UA-28222529-1
 show_excerpts: true
+twitter:
+    username: mwlbr
+    card: summary
+logo: /assets/logo.png
 #paginate: 5
 #paginate_path: /page:num/
 
@@ -41,7 +45,8 @@ show_excerpts: true
 
 # Build settings
 theme: minima
-
+minima:
+    skin: dark
 plugins:
   - jekyll-feed
   #- jekyll-analytics

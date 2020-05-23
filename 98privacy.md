@@ -4,6 +4,7 @@ title: "Privacy"
 heading: "Datenschutzerklärung"
 permalink: /privacy
 date: 2020-04-13
+lang: de_DE
 ---
 
 

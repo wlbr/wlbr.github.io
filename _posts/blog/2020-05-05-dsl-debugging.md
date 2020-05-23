@@ -3,6 +3,7 @@ layout: post
 category: blog
 title: "DSL Debugging"
 date: 2020-05-05    
+image: /assets/dslmonitoring1.jpg
 ---
 
 Recently, somehow prepping for the Corona apocalypse, I ordered an upgrade of my DSL line. From 50/10 mbit/s (downstream/upstream) VDSL to 100/40 mbit/s VDSL Vectoring. It costs me additional 5€ per month so I thought it might be worth it. I did not really expect that just a few weeks later the both of us would find ourselves working completely remote from our home.

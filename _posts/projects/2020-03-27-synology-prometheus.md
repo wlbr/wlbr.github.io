@@ -3,7 +3,8 @@ layout: post
 category: project
 title: "DSL Monitoring"
 date: 2020-03-27
-description: "Hihoho"
+description: "How to monitor your DSL internet connection"
+image: /assets/dslmonitoring1.jpg
 ---
 
 
