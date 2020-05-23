@@ -35,6 +35,16 @@ twitter:
     username: mwlbr
     card: summary
 logo: /assets/logo.png
+
+social:
+    name: Ben Balter
+    links:
+      - https://twitter.com/mwlbr
+      - https://www.linkedin.com/in/mwolber
+      - https://github.com/wlbr
+      #- https://www.facebook.com/ben.balter
+      #- https://keybase.io/benbalter
+
 #paginate: 5
 #paginate_path: /page:num/
 
@@ -45,8 +55,7 @@ logo: /assets/logo.png
 
 # Build settings
 theme: minima
-minima:
-    skin: dark
+
 plugins:
   - jekyll-feed
   #- jekyll-analytics
