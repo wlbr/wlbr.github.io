@@ -12,7 +12,7 @@ Well, so I wrote a simple sitemap generator. It connects to the database of the 
 It reads a file named  .sitemapms.ini that resides in the home directory of the user running the tool and takes a number of command line switches.
 
 Configuration:
-```
+```ini
 ; SiteMapMS Config file
 [Database]
   Database = cms_db
