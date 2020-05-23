@@ -41,7 +41,7 @@ show_excerpts: true
 
 # Build settings
 theme: minima
-#skin: solarized
+
 plugins:
   - jekyll-feed
   #- jekyll-analytics
