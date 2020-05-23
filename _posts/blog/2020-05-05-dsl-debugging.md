@@ -37,11 +37,11 @@ I created the following graphs to visualize everything:
 Now I was able to change things and _measure_ their effects. I turned out that I had a few things I needed to fix:
 
 1. the cable coming from the wall going to the modem was banded, tied up to save space and look tidy. This seems to have created a kind of coil. I unbanded it and lead it hanging free on the backside of the sheld the modem resides in. So it does not have any winding anymore.
-2. I change the cable from wall to modem by a new, high qulity one with some more shielding.
+2. I change the cable from wall to modem by a new, high quality one with some more shielding.
 3. the cable leading from the street to the plugin the wall of our flat was too long and somewhere the surplus length was again winded and formed a coil. Actually by intention, as I wanted to be able to change the wiring later and did not expect that winds with a diameter of 40cm would have any effect.
 4. I exchanged the multiple socket outlet from a cheap version to a higher quality variant with relatively big distances between the plugs.
 5. Clearly separated the power cables from the phone and network lines leading to the modem.
 
-This seemed to have my problem solved. It got quicker (a sync to 78/30 mbit/s, real throughput 72/30 mbit/s) and is rockstable now. I think that when upgrading my line to vectoring the speed of the line made it more delicate to any outer influence. So the several magnetic coils I created and the line lying close to the power cables were creating the trouble.
+This seemed to have my problem solved. It got quicker (a sync to 78/30 mbit/s, real throughput 72/30 mbit/s) and is rock stable now. I think that when upgrading my line to vectoring the speed of the line made it more delicate to any outer influence. So the several magnetic coils I created and the line lying close to the power cables were creating the trouble.
 
-I know that there is still one unwanted coil within the cable somewhere on its way through the buildings here. I guess if I could remove that as well I would gain a little more speed. But my main problem was the stabilty, the 70/30 mbit/s is quick enough for now. As it it would be some hard work to reach that last winding I just leave it there for now.
+I know that there is still one unwanted coil within the cable somewhere on its way through the buildings here. I guess if I could remove that as well I would gain a little more speed. But my main problem was the stability, the 70/30 mbit/s is quick enough for now. As it would be some hard work to reach that last winding I just leave it there for now.
