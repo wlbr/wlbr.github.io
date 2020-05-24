@@ -2,9 +2,10 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
+  //border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
+  background-color: $header-background;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -108,6 +109,7 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  background: white;
 }
 
 .footer-heading {
@@ -200,7 +202,7 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
-}
+  }
 
 .post-link {
   display: block;
@@ -212,17 +214,17 @@
 /**
  * Posts
  */
-.post-header {
-  margin-bottom: $spacing-unit;
-}
+//.post-header {
+//  margin-bottom: $spacing-unit;
+//}
 
 .post-title {
-  @include relative-font-size(2.625);
+  @include relative-font-size(2 );
   letter-spacing: -1px;
   line-height: 1;
 
   @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
+    @include relative-font-size(2);
   }
 }
 
