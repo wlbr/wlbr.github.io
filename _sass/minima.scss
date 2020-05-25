@@ -9,8 +9,8 @@ $base-font-weight: 300 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 $background-color: rgb(253, 253, 253) !default;
-$header-background: scale-color(scale-color($background-color, $lightness: -15%), $blue: 35%);
-$code-background: scale-color($header-background, $lightness: 70%) !default;
+$header-background: scale-color(scale-color($background-color, $lightness: -7%), $blue: 35%);
+$code-background: scale-color(scale-color($background-color, $lightness: -3%), $blue: 35%) !default;
 $code-font-size: $base-font-size * 0.875 !default;
 
 $spacing-unit:     30px !default;
