@@ -8,13 +8,12 @@ image: /assets/dslmonitoring1.jpg
 ---
 
 
-Due to some trouble with my internet connection I built some tooling to monitor the connection. You may use it to gather data to talk to your provider. Or you can use to get into a measure-change-measure debugging cycle. The latter approach helped me solving my problems.
+Due to some trouble with my internet connection I built some tooling to monitor the connection. You may use it to gather data to talk to your provider. Or you can use it to get into a measure-change-measure debugging cycle. The latter approach helped me 
+solving my problems (see [this post]({% post_url blog/2020-05-05-dsl-debugging %}) for more details on my investigations & actions).
 
+So I modified an existing package (see the fork link on Github) to make the monitoring completely running on my Synology. I chose that one, as it is always on and capable of running docker (I've got a Synology '+' version). So in the end there is a Docker Compose file that will do anything that's needed. For those of you who live on the edge and have it fully automated: there is a shell script as well that will even create all folders that are needed for the Docker images.
 
-  
-So I modified an existing package (see the fork link on Github) to make the monitoring completely run in my Synology. I chose that one, as it is always running and capable of running docker (I've got a Synology + version). So in the end there is a Docker Compose file that will do anything that's needed. For those of you who live on the edge and have it fully automated: there is a shell script as well that will even create all folders that are needed for the Docker images.
-
-I am collecting data for 
+I am collecting data for
 
 * up- and downstream DSL sync
 * up- and downstream throughput / mesured bandwidth
@@ -23,7 +22,7 @@ I am collecting data for
   
 ![DSL Data](/assets/dslmonitoring1.jpg)
 
-As you can see looging at the details: my last unplanned reconnect was on April 27th. Uptime is a growing counter. As german DSL lines are autoreconnected by the provider every 24h you will see a regular saw teeth curve. Any additonal small peak indicates a reconect.
+As you can see looging at the details: my last unplanned reconnect was on April 27th. Uptime is a growing counter. As german DSL lines are auto-reconnected by the provider every 24h you will see a regular saw teeth curve. Any additional small peak indicates a reconnect.
 
 ![Sync & Uptime](/assets/dslmonitoring2.jpg)
 

@@ -20,17 +20,17 @@ Around the same time the permanent home office period started. So I could not to
 
 So I had to start debugging. Measure / Change / Measure / Change... First I started to build up a monitoring environment.
 
-I own a Docker cabable Synology, that is always on and connected via lan to my modem/router. The router is a AVM Fritz!Box 7580. For the non Germans: the Fritz!Box is *the* standard quality modem for homeuse here and the 7580 is pretty much the top of the line model. 
+I own a Docker capable Synology, that is always on and connected via lan to my modem/router. The router is a AVM Fritz!Box 7580. For the non Germans: the Fritz!Box is *the* standard quality modem for homeuse here and the 7580 is pretty much the top of the line model. 
 
 So I bundled some existing images and added a few things and finally I had a Docker Compose file, that enables a complete monitoring for my internet line.
 
 * Prometheus
-  * a Fritzbox upnp reader getting the sync rates and the uptime of the modem frequently exposing them as a Prometheus source
+  * a Fritzbox UPNO reader getting the sync rates and the uptime of the modem frequently exposing them as a Prometheus source
   * a speed test the check the resulting network speed. 
 * Grafana to visualize everything
 * Everything dockered and scripted, so that you simple need to execute the Docker Compose script on your Synology to get everything up and running. 
 
-See [this post]({% link _posts/projects/2020-03-27-synology-prometheus.md %}) describing the package in detail.
+See [this post]({% post_url projects/2020-03-27-synology-prometheus %}) describing the package in detail.
 
 I created the following graphs to visualize everything:
 ![DSL Data](/assets/dslmonitoring1.jpg)
@@ -38,10 +38,10 @@ I created the following graphs to visualize everything:
 Now I was able to change things and _measure_ their effects. I turned out that I had a few things I needed to fix:
 
 1. the cable coming from the wall going to the modem was banded, tied up to save space and look tidy. This seems to have created a kind of coil. I unbanded it and lead it hanging free on the backside of the sheld the modem resides in. So it does not have any winding anymore.
-2. I change the cable from wall to modem by a new, high quality one with some more shielding.
+2. I change the cable from wall to modem by a new, high-quality one with some more shielding.
 3. the cable leading from the street to the plugin the wall of our flat was too long and somewhere the surplus length was again winded and formed a coil. Actually by intention, as I wanted to be able to change the wiring later and did not expect that winds with a diameter of 40cm would have any effect.
 4. I exchanged the multiple socket outlet from a cheap version to a higher quality variant with relatively big distances between the plugs.
-5. Clearly separated the power cables from the phone and network lines leading to the modem.
+5. I separated the power cables clearly from the phone and network lines leading to the modem.
 
 This seemed to have my problem solved. It got quicker (a sync to 78/30 mbit/s, real throughput 72/30 mbit/s) and is rock stable now. I think that when upgrading my line to vectoring the speed of the line made it more delicate to any outer influence. So the several magnetic coils I created and the line lying close to the power cables were creating the trouble.
 
