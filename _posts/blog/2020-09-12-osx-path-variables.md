@@ -25,7 +25,7 @@ So I created a file called `go`containg these two lines:
 
 ## Problems having double path elements in $PATH ?
 
-Adding the desired path components `/ect/paths.d` sets the path for applications and unix-like command-line programs. So there is not really a need to manipulate the path variable in your .bashrc. This will end up in duplicate entries.
+Adding the desired path components to `/ect/paths.d` sets the path for applications _and_ unix-like command-line programs. So there is not really a need to manipulate the path variable in your .bashrc. This will end up in duplicate entries.
 
 But in case you want to share the .bashrc with between multiple machine, maybe a Linux, you may use the following shell function to add each single path component to the $PATH.
 So instead of the typical `export $PATH=$PATH:/my/new/pathcomponent` you simply type `addPath /my/new/pathcomponent`. The function will add its argument only if it isn't already part of $PATH.
