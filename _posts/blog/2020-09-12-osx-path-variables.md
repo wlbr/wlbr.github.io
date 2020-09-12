@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-title: "Setting $PATH on OSX <em>globally</em>"
+title: "Setting $PATH gloablly on OSX"
 #description: ""
 tags: osx 
 date: 2020-09-12
