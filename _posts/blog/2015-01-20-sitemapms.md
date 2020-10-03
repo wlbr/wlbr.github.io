@@ -5,11 +5,11 @@ title: "SitemapMS"
 date: 2015-01-20
 ---
 
-I did a rework of my [archery club's](https://www.bsc-karlsruhe.de) homepage and decided to use a content management system called [CMS Made Simple](https://www.cmsmadesimple.org/) or, shorter, CmsMS. It did not generate a goog sitemap automatically. Yet another plugin just did not seem to work.
+I did a rework of my [archery club's](https://www.bsc-karlsruhe.de) homepage and decided to use a content management system called [CMS Made Simple](https://www.cmsmadesimple.org/) or, shorter, CmsMS. It did not generate a google sitemap automatically. Yet another plugin just did not seem to work.
 
-Well, so I wrote a simple sitemap generator. It connects to the database of the content management system and creates a sitemap.xml file. The hiararchy of the pages in the menu drives the priority in the sitemap. It can be run frequently as a cronjob.
+Well, so I wrote a simple sitemap generator. It connects to the database of the content management system and creates a sitemap.xml file. The hierarchy of the pages in the menu drives the priority in the sitemap. It can be run frequently as a cronjob.
 
-It reads a file named  .sitemapms.ini that resides in the home directory of the user running the tool and takes a number of command line switches.
+It reads a file named  .sitemapms.ini that resides in the home directory of the user running the tool and takes some command-line switches.
 
 Configuration:
 ```ini
