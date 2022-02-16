@@ -1,10 +1,10 @@
 ---
 layout: post
 category: blog
-title: "Setting $PATH globally on OSX"
+title: "Embedding files in Go code"
 #description: ""
 tags: osx 
-date: 2020-09-12
+date: 20201-09-15
 ---
 
 
