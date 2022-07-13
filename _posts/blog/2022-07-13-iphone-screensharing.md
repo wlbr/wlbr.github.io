@@ -22,4 +22,4 @@ What would be needed is a window with the mirrored screen inside, so that you ca
 On versions older than Monterey you could use the nice freeware 
 [LetsView](https://letsview.com) to show your mirrored device in a windowd mode. But since Monterey, it displays the screen on fullscreen, just as the built-in functionality. It seems that you it offers no additional functionalty, actually.
 
-__But there is one trick: if you turn turn if the Airplay receiver in Settings / Sharing but keep using LetsView, then the tool is displaying the screen in windowed mode again!__
+__But there is one trick: if you turn turn *off* the Airplay receiver in Settings / Sharing but keep using LetsView, then the tool is displaying the screen in windowed mode again!__
