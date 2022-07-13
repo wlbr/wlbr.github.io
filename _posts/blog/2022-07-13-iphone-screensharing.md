@@ -9,7 +9,7 @@ date: 2022-07-13
 
 Working on remote development projects you will most likely get to the point, where you will need to share the content of your iPhone screen using Zoom, Google Meet, MS Teams ... While mobile developers will have some commercial software for this, I am more an occasional user and need simply a cheap solutions.
 
-There are a numer of products available: [LonelyScreen](https://www.lonelyscreen.com), Reflector](https://www.airsquirrels.com/reflector, [AirServer](https://www.airserver.com) and probaply more will do the job for you. Their pricing is around 30€. 
+There are a numer of products available: [LonelyScreen](https://www.lonelyscreen.com), [Reflector](https://www.airsquirrels.com/reflector), [AirServer](https://www.airserver.com) and probaply more will do the job for you. Their pricing is around 30€. 
 But there are free alternatives available.
 
 First of all, since OSX Monterey the basic functionality is built into OSX itself. You simply need to enable the Airplay Receiver in Settings / Sharing. After that you will find your Mac as an Airplay display in your sharing screen on the iPhone, if both devices are in the same network.
