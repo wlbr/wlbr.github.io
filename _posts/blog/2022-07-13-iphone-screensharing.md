@@ -7,7 +7,7 @@ date: 2022-07-13
 ---
 
 
-Working on remote development projects you will most likely get to the point, where you will need to share the content of your iPhone screen using Zoom, Google Meet, MS Teams ... While mobile developers will have some commercial software for this, I am more an occasional user and need simply a cheap solutions.
+Working on remote development projects you will most likely get to the point, where you will need to share the content of your iPhone screen using Zoom, Google Meet, MS Teams ... While mobile developers will have some commercial software for this, I am more an occasional user and need simply a cheap solution.
 
 There are a numer of products available: [LonelyScreen](https://www.lonelyscreen.com), [Reflector](https://www.airsquirrels.com/reflector), [AirServer](https://www.airserver.com) and probaply more will do the job for you. Their pricing is around 30€. 
 But there are free alternatives available.
