@@ -1,10 +1,10 @@
 ---
 layout: post
 category: blog
-title: "Embedding files in Go code"
+title: "Global path variables on OSX"
 #description: ""
 tags: osx 
-date: 2020-09-15
+date: 2020-09-12
 ---
 
 
