@@ -2,8 +2,10 @@
 layout: post
 category: blog
 title: "Screensharing of iPhone on OSX"
+tags: osx 
 date: 2022-07-13
 ---
+
 
 Working on remote development projects you will most likely get to the point, where you will need to share the content of your iPhone screen using Zoom, Google Meet, MS Teams ... While mobile developers will have some commercial software for this, I am more an occasional user and need simply a cheap solutions.
 
