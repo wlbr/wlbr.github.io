@@ -29,7 +29,7 @@ twitter_username: mwlbr
 github_username:  wlbr
 linkedin_username: mwolber
 stackoverflow_username: "1183146"
-google_analytics: UA-28222529-1
+google_analytics: G-K7CWVZ6WYB
 show_excerpts: true
 twitter:
     username: mwlbr
@@ -50,7 +50,7 @@ social:
 
 # jekyll_analytics:
 #     GoogleAnalytics:          # Add, if you want to track with Google Analytics
-#     id: UA-28222529-1          # Required - replace with your tracking id
+#     id: G-K7CWVZ6WYB          # Required - replace with your tracking id
 #     anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
 
 # Build settings
