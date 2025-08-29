@@ -6,8 +6,6 @@ tags: osx macos
 date: 2022-09-30
 ---
 
-
-## Installation
 Installation of [Xplanet](https://xplanet.sourceforge.net) on macOS is rather simple, but the configuration can be tricky to find for basic use cases. Xplanet is extremely powerful and has a lot of possibilities; please check its homepage for more details. However, achieving a simple display of the classic blue marble background with day/night boundaries and clouds is straightforward.
 
 You can install it using Homebrew. The standard files will be in `${HOMEBREW_PREFIX}/share/xplanet` (so `/opt/homebrew/share/xplanet` on an Arm Mac).
